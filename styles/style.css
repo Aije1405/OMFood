@@ -24,28 +24,6 @@ h2{
     margin-top: 4%;
 }
 
-h3{
-    color: chocolate;
-    font-family: cursive;
-    font-size: 2em;
-    margin: 0;
-}
-
-table{
-    width: 100%;
-}
-
-#note{
-    background-color: #FBDFDC;
-    margin: 0% 5%;
-    padding: 2% 5%;
-}
-
-#note > figure, h3, h4{
-    text-align: center;
-    margin: 0;
-}
-
 #titre{
     margin: auto;
     padding: 25px;
@@ -68,6 +46,72 @@ table{
 #main-menu img{
     width: 100%;
 }
+
+/* pages menus---------------------------------------------------------------------*/
+
+#titre-note{
+    color: chocolate;
+    font-family: cursive;
+    font-size: 2em;
+    margin: 0;
+}
+
+#titre-chic{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+}
+
+#note{
+    background-color: #FBDFDC;
+    margin: 0% 5%;
+    padding: 2% 5%;
+}
+
+#note > figure, h3, h4{
+    text-align: center;
+    margin: 0;
+}
+
+#chic{
+    background-color: #FDF5FE;
+    margin: 0% 5%;
+    padding: 2% 5%;  
+}
+
+#chic > h3, h4{
+    text-align: center;
+    margin: 0; 
+}
+
+#delice{
+    background-color: #F9F9F9;
+    margin: 0% 5%;
+    padding: 2% 5%;    
+}
+
+#delice > h3, h4{
+    text-align: center;
+    margin: 0; 
+}
+
+#palette{
+    background-color: #FDFFFD;
+    margin: 0% 5%;
+    padding: 2% 5%;     
+}
+
+#palette > h3, h4{
+    text-align: center;
+    margin: 0; 
+}
+
+/*boutons---------------------------------------------------------------------------------*/
 
 button{
     font-size: 1.8em;
