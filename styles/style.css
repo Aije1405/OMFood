@@ -49,23 +49,11 @@ h2{
 
 /* pages menus---------------------------------------------------------------------*/
 
-#titre-note{
-    color: chocolate;
-    font-family: cursive;
-    font-size: 2em;
-    margin: 0;
-}
-
-#titre-chic{
-    color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
-    margin: 0;
-}
-
 table{
     width: 100%;
 }
+
+/*pagemenu1*/
 
 #note{
     background-color: #FBDFDC;
@@ -73,10 +61,40 @@ table{
     padding: 2% 5%;
 }
 
+#titre-note{
+    color: chocolate;
+    font-family: cursive;
+    font-size: 4em;
+    margin: 0;
+}
+
 #note > figure, h3, h4{
     text-align: center;
     margin: 0;
 }
+
+#note > h4{
+    font-size: 3em;
+    font-family: cursive;
+    color: chocolate;
+    margin: 2%;
+}
+
+#note > h4::before, h4::after{
+    content:'';
+    width:3em;
+    border-bottom: chocolate solid;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#note > table{
+    font-family: cursive;
+    font-size: 2em;
+    color: chocolate;
+}
+
+/*pagemenu2*/
 
 #chic{
     background-color: #FDF5FE;
@@ -84,10 +102,71 @@ table{
     padding: 2% 5%;  
 }
 
+#titre-chic{
+    color: #925CF8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    margin: 0;
+}
+
 #chic > h3, h4{
     text-align: center;
-    margin: 0; 
+    margin: 4%; 
 }
+
+#chic > h4{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5%;
+}
+
+#entrees > h4::before, #entrees > h4::after{
+    content:'';
+    width:3em;
+    border-bottom: #DC8628 solid;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#entrees{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #DC8628;  
+    margin: 3%;
+}
+
+#plats > h4::before, #plats > h4::after{
+    content:'';
+    width:3em;
+    border-bottom: #C0787F solid;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#plats{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #C0787F;  
+    margin: 3%;
+
+}
+
+#desserts > h4::before, #desserts > h4::after{
+    content:'';
+    width:3em;
+    border-bottom: #925CF8 solid;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#desserts{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #925CF8;
+    margin: 3%;
+
+}
+/*pagemenu3*/
 
 #delice{
     background-color: #F9F9F9;
@@ -97,8 +176,38 @@ table{
 
 #delice > h3, h4{
     text-align: center;
-    margin: 0; 
+    margin: 3%; 
 }
+
+#delice > h3{
+    font-family: cursive;
+    color: #143FDD;
+    font-size: 4em;
+}
+
+#delice > h4{
+    font-size: 2em;
+    font-family: cursive;
+    color: black;
+    margin: 2%;
+}
+
+#delice > h4::before, #delice > h4::after{
+    content:'';
+    width:3em;
+    border-bottom: #143FDD solid;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#delice > table{
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+}
+
+
+/*pagemenu4*/
 
 #palette{
     background-color: #FDFFFD;
@@ -108,9 +217,35 @@ table{
 
 #palette > h3, h4{
     text-align: center;
-    margin: 0; 
+    margin: 3%; 
 }
 
+#palette > h3{
+    font-family: cursive;
+    color: #42963D;
+    font-size: 4em;
+}
+
+#palette > h4{
+    font-size: 2em;
+    font-family: cursive;
+    color: black;
+    margin: 2%;
+}
+
+#palette > h4::before, #palette > h4::after{
+    content:'';
+    width:3em;
+    border-bottom: #42963D solid;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#palette > table{
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+}
 /*boutons---------------------------------------------------------------------------------*/
 
 button{
