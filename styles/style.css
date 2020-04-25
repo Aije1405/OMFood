@@ -12,9 +12,7 @@ header{
     text-align: center;
 }
 
-main{
-    margin-bottom: 10%;
-}
+
 
 h2{
     color: dimgrey;
@@ -38,11 +36,6 @@ h2{
     flex-wrap: wrap;
 }
 
-#main-menu a{
-    width: 40%;
-    padding: 5%;
-}
-
 #main-menu img{
     width: 100%;
 }
@@ -51,6 +44,10 @@ h2{
 
 table{
     width: 100%;
+}
+
+.prix{
+    text-align: right;
 }
 
 /*pagemenu1*/
@@ -239,7 +236,16 @@ table{
     border-bottom: #42963D solid;
     display:inline-block;
     vertical-align:middle;
+    
 }
+
+#palette > h4::before{
+    text-align: center;
+}
+
+
+
+
 
 #palette > table{
     font-family: cursive;
@@ -282,4 +288,43 @@ footer > a{
     font-family: sans-serif;
     font-size: 25px;
     text-decoration: none;
+}
+
+/*responsivité*/
+
+@media screen and (min-width: 577px) {
+    #main-menu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #main-menu a{
+        width: 40%;
+        padding: 5%;
+    }
+    main{
+        margin-bottom: 10%;
+    }
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    #main-menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main-menu a {
+        width: 65%;
+        padding-top: 5%;
+        align-self: center;
+    }
+
+    main{
+        margin-bottom: 20%;
+    }
+    #prochainement{
+        margin-top: 5%;
+    }
 }
