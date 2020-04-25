@@ -1,20 +1,19 @@
-html{
+html {
     height: 100%;
 }
-body{
+
+body {
     margin: 10px;
     height: 100%;
 }
 
-header{
+header {
     background-color: lightseagreen;
     height: 20%;
     text-align: center;
 }
 
-
-
-h2{
+h2 {
     color: dimgrey;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +21,7 @@ h2{
     margin-top: 4%;
 }
 
-#titre{
+#titre {
     margin: auto;
     padding: 25px;
     color: orange;
@@ -30,231 +29,204 @@ h2{
     font-size: 45px;
 }
 
-#main-menu{
+#main-menu {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
-#main-menu img{
+#main-menu img {
     width: 100%;
 }
 
 /* pages menus---------------------------------------------------------------------*/
 
-table{
+table {
     width: 100%;
 }
 
-.prix{
+.prix {
     text-align: right;
 }
 
 /*pagemenu1*/
 
-#note{
+#note {
     background-color: #FBDFDC;
     margin: 0% 5%;
     padding: 2% 5%;
 }
 
-#titre-note{
-    color: chocolate;
+#titre-note {
+    color: #35070C;
     font-family: cursive;
     font-size: 4em;
     margin: 0;
 }
 
-#note > figure, h3, h4{
+#note>figure, h3, h4 {
     text-align: center;
     margin: 0;
 }
 
-#note > h4{
+#note h4 {
     font-size: 3em;
     font-family: cursive;
-    color: chocolate;
+    color: #35070C;
     margin: 2%;
 }
 
-#note > h4::before, h4::after{
-    content:'';
-    width:3em;
-    border-bottom: chocolate solid;
-    display:inline-block;
-    vertical-align:middle;
+.titre-menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#note > table{
+.titre-menus img {
+    width: 25%;
+    height: fit-content;
+}
+
+#note>table {
     font-family: cursive;
     font-size: 2em;
-    color: chocolate;
+    color: #35070C;
 }
 
 /*pagemenu2*/
 
-#chic{
+#chic {
     background-color: #FDF5FE;
     margin: 0% 5%;
-    padding: 2% 5%;  
+    padding: 2% 5%;
 }
 
-#titre-chic{
+#titre-chic {
     color: #925CF8;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
     margin: 0;
 }
 
-#chic > h3, h4{
+#chic>h3, h4 {
     text-align: center;
-    margin: 4%; 
+    margin: 4%;
 }
 
-#chic > h4{
+#chic h3{
+    background-image: linear-gradient(to right, #c67421, #d1673e, #d35f59, #cd5c71, #bf5f86, #b85d90, #ae5c9a, #a15da3, #9a57ac, #9051b6, #824ec0, #6d4ccc);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#chic>h4 {
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 5%;
 }
 
-#entrees > h4::before, #entrees > h4::after{
-    content:'';
-    width:3em;
-    border-bottom: #DC8628 solid;
-    display:inline-block;
-    vertical-align:middle;
-}
-
-#entrees{
+#entrees {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
-    color: #DC8628;  
+    color: #DC8628;
     margin: 3%;
 }
 
-#plats > h4::before, #plats > h4::after{
-    content:'';
-    width:3em;
-    border-bottom: #C0787F solid;
-    display:inline-block;
-    vertical-align:middle;
-}
-
-#plats{
+#plats {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
-    color: #C0787F;  
+    color: #C0787F;
     margin: 3%;
-
 }
 
-#desserts > h4::before, #desserts > h4::after{
-    content:'';
-    width:3em;
-    border-bottom: #925CF8 solid;
-    display:inline-block;
-    vertical-align:middle;
-}
-
-#desserts{
+#desserts {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
     color: #925CF8;
     margin: 3%;
-
 }
+
 /*pagemenu3*/
 
-#delice{
+#delice {
     background-color: #F9F9F9;
     margin: 0% 5%;
-    padding: 2% 5%;    
+    padding: 2% 5%;
 }
 
-#delice > h3, h4{
+#delice>h3, h4 {
     text-align: center;
-    margin: 3%; 
+    margin: 3%;
 }
 
-#delice > h3{
+#delice>h3 {
     font-family: cursive;
     color: #143FDD;
     font-size: 4em;
 }
 
-#delice > h4{
+#delice h3{
+    background-image: linear-gradient(to right, #103fdd, #0053e7, #0065ef, #0077f6, #0887fb);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#delice > h4 {
     font-size: 2em;
     font-family: cursive;
     color: black;
     margin: 2%;
 }
 
-#delice > h4::before, #delice > h4::after{
-    content:'';
-    width:3em;
-    border-bottom: #143FDD solid;
-    display:inline-block;
-    vertical-align:middle;
-}
-
-#delice > table{
+#delice>table {
     font-family: cursive;
-    font-size: 1em;
+    font-size: 2em;
     color: black;
 }
-
 
 /*pagemenu4*/
 
-#palette{
+#palette {
     background-color: #FDFFFD;
     margin: 0% 5%;
-    padding: 2% 5%;     
+    padding: 2% 5%;
 }
 
-#palette > h3, h4{
+#palette>h3, h4 {
     text-align: center;
-    margin: 3%; 
+    margin: 3%;
 }
 
-#palette > h3{
+#palette>h3 {
     font-family: cursive;
-    color: #42963D;
-    font-size: 4em;
+    background-image: linear-gradient(to right, #3e923a, #6fae6b, #9dc99b, #cce4cc, #fdfffd);    
+    background-size: 135%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+            font-size: 4em;
 }
 
-#palette > h4{
+#palette>h4 {
     font-size: 2em;
     font-family: cursive;
     color: black;
     margin: 2%;
 }
 
-#palette > h4::before, #palette > h4::after{
-    content:'';
-    width:3em;
-    border-bottom: #42963D solid;
-    display:inline-block;
-    vertical-align:middle;
-    
-}
-
-#palette > h4::before{
-    text-align: center;
-}
-
-
-
-
-
-#palette > table{
+#palette>table {
     font-family: cursive;
     font-size: 1em;
     color: black;
 }
+
 /*boutons---------------------------------------------------------------------------------*/
 
-button{
+button {
     font-size: 1.8em;
     padding: 1% 5%;
     background-color: lightseagreen;
@@ -263,15 +235,13 @@ button{
     border-radius: 12px;
 }
 
-#prochainement{  
+#prochainement {
     text-align: center;
 }
 
-
-
 /*footer démarre ici---------------------------------------------------------------------*/
 
-footer{
+footer {
     padding: 2% 2%;
     background-color: lightseagreen;
     position: fixed;
@@ -280,10 +250,9 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
-footer > a{
+footer>a {
     color: orange;
     font-family: sans-serif;
     font-size: 25px;
@@ -293,38 +262,33 @@ footer > a{
 /*responsivité*/
 
 @media screen and (min-width: 577px) {
-    #main-menu{
+    #main-menu {
         display: flex;
         flex-direction: row;
     }
-
-    #main-menu a{
+    #main-menu a {
         width: 40%;
         padding: 5%;
     }
-    main{
+    main {
         margin-bottom: 10%;
     }
-    
 }
 
-
 @media screen and (max-width: 576px) {
-    #main-menu{
+    #main-menu {
         display: flex;
         flex-direction: column;
     }
-
     #main-menu a {
         width: 65%;
         padding-top: 5%;
         align-self: center;
     }
-
-    main{
+    main {
         margin-bottom: 20%;
     }
-    #prochainement{
+    #prochainement {
         margin-top: 5%;
     }
 }
