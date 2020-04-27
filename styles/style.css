@@ -94,6 +94,19 @@ table {
     color: #35070C;
 }
 
+#note-de-fin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5%;
+}
+
+#note-de-fin img{
+    width: 10%;
+    height: 70px;
+    align-self: center;
+}
+
 /*pagemenu2*/
 
 #chic {
@@ -176,7 +189,7 @@ table {
     -webkit-text-fill-color: transparent;
 }
 
-#delice > h4 {
+#delice h4 {
     font-size: 2em;
     font-family: cursive;
     color: black;
@@ -208,11 +221,11 @@ table {
     background-size: 135%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-            font-size: 4em;
+            font-size: 4.5em;
 }
 
-#palette>h4 {
-    font-size: 2em;
+#palette h4 {
+    font-size: 3em;
     font-family: cursive;
     color: black;
     margin: 2%;
