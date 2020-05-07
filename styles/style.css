@@ -26,12 +26,6 @@ header a #titre {
   font-size: 45px;
 }
 
-.zoom:hover img, .zoom:hover p {
-  transition: 1s;
-  opacity: 0.5;
-  transform: scale(1.5);
-}
-
 #pagemenu1, #pagemenu4, #pagemenu3, #pagemenu2 {
   display: flex;
   flex-direction: column;
@@ -445,18 +439,25 @@ footer a:hover {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
-/*responsivité*/
-@media screen and (min-width: 768px) {
-  #index-menu {
-    display: flex;
-    flex-direction: row;
+#index-menu {
+  display: flex;
+  flex-direction: row;
+}
+#index-menu a {
+  width: 40%;
+}
+
+.zoom:hover img, .zoom:hover p {
+  transition: 1s;
+  opacity: 0.5;
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 600px) {
+  .titre-menus {
+    justify-content: center;
   }
 
-  #index-menu a {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 768px) {
   #index-menu {
     display: flex;
     flex-direction: column;
@@ -470,6 +471,7 @@ footer a:hover {
 
   main {
     margin-bottom: 20%;
+    margin-top: 5%;
   }
 
   #prochainement {
@@ -481,6 +483,31 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .disappear, h2 {
+    display: none;
+  }
+
+  h3, h4, .underline {
+    font-size: 2rem !important;
+  }
+
+  td {
+    font-size: 1rem;
+  }
+
+  table {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  #palette {
+    padding: 2% 0%;
+  }
+
+  h4 {
+    margin-top: 10% !important;
   }
 }
 
