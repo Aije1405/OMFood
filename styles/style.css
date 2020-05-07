@@ -446,7 +446,7 @@ footer a:hover {
   }
 }
 /*responsivité*/
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 768px) {
   #index-menu {
     display: flex;
     flex-direction: row;
@@ -456,7 +456,7 @@ footer a:hover {
     width: 40%;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #index-menu {
     display: flex;
     flex-direction: column;
@@ -474,6 +474,7 @@ footer a:hover {
 
   #prochainement {
     margin-top: 5%;
+    width: 100%;
   }
 
   footer {
