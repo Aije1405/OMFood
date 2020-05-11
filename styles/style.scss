@@ -1,5 +1,9 @@
 $header-footer-color: lightseagreen;
-
+$header-footer-text-color: orange;
+$menu-note-font-family: 'Parisienne', cursive;
+$menu-chic-font-family: 'Abel', sans-serif;
+$menu-delice-font-family: 'Dancing Script', cursive;
+$menu-palette-font-family: 'Balsamiq Sans', cursive;
 
 html {
     height: 100%;
@@ -27,7 +31,7 @@ header {
         #titre {
             margin: auto;
             padding: 3%;
-            color: orange;
+            color: $header-footer-text-color;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 45px;
         }
@@ -53,7 +57,7 @@ header {
     }
 
     p{
-        font-family: 'Parisienne', cursive;
+        font-family: $menu-note-font-family;
         color: #35070C;
         font-size: 2rem;
         margin-top: 0%;
@@ -68,7 +72,7 @@ header {
     background-color: #FDF5FE;
 
     p{
-        font-family: 'Abel', sans-serif;
+        font-family: $menu-chic-font-family;
         font-size: 2rem;
         background-image: linear-gradient(to right, #c67421, #A56799, #6D4CCC);
         background-size: 100%;
@@ -85,7 +89,7 @@ header {
     background-color: #F9F9F9;
 
     p{
-        font-family:'Dancing Script', cursive;
+        font-family:$menu-delice-font-family;
         font-size: 2rem;
         background-image: linear-gradient(to right, #103fdd, #259DF9);
         background-size: 100%;
@@ -102,7 +106,7 @@ header {
     background-color: #FDFFFD;
 
     p{
-        font-family:'Balsamiq Sans', cursive;
+        font-family:$menu-palette-font-family;
         font-size: 2rem; 
         background-image: linear-gradient(to right, #41953C, #D5F9B4);    
         background-size: 135%;
@@ -126,7 +130,7 @@ h2 {
     color: dimgrey;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 4%;
 }
 
@@ -150,7 +154,7 @@ table {
 
     #titre-note {
         color: #35070C;
-        font-family: 'Parisienne', cursive;
+        font-family: $menu-note-font-family;
         font-size: 4rem;
         margin: 0;
     }
@@ -162,13 +166,13 @@ table {
 
     h4 {
         font-size: 3rem;
-        font-family: 'Parisienne', cursive;
+        font-family: $menu-note-font-family;
         color: #35070C;
         margin: 2%;
     }
 
     table {
-        font-family: 'Parisienne', cursive;
+        font-family: $menu-note-font-family;
         font-size: 2rem;
         color: #35070C;
     }
@@ -209,7 +213,7 @@ table {
 
     #titre-chic {
         color: #925CF8;
-        font-family: 'Abel', sans-serif;
+        font-family: $menu-chic-font-family;
         font-size: 3rem;
         margin: 0;
     }
@@ -226,11 +230,11 @@ table {
     }
     h4 {
         font-size: 2rem;
-        font-family: 'Abel', sans-serif;
+        font-family: $menu-chic-font-family;
         margin: 5%;
     }
     #entrees {
-        font-family: 'Abel', sans-serif;
+        font-family: $menu-chic-font-family;
         font-size: 2rem;
         color: #DC8628;
         margin: 3%;
@@ -242,7 +246,7 @@ table {
         }
     }
     #plats {
-        font-family: 'Abel', sans-serif;
+        font-family: $menu-chic-font-family;
         font-size: 2rem;
         color: #C0787F;
         margin: 3%;
@@ -254,7 +258,7 @@ table {
         }
     }
     #desserts {
-        font-family: 'Abel', sans-serif;
+        font-family: $menu-chic-font-family;
         font-size: 2rem;
         color: #925CF8;
         margin: 3%;
@@ -281,7 +285,7 @@ table {
         margin: 3%;
     }
     h3 {
-        font-family:'Dancing Script', cursive;
+        font-family:$menu-delice-font-family;
         color: #143FDD;
         font-size: 4rem;
         background-image: linear-gradient(to right, #103fdd, #259DF9);
@@ -292,12 +296,12 @@ table {
     }
     h4 {
         font-size: 2rem;
-        font-family:'Dancing Script', cursive;
+        font-family:$menu-delice-font-family;
         color: black;
         margin: 2%;
     }
     table {
-        font-family:'Dancing Script', cursive;
+        font-family:$menu-delice-font-family;
         font-size: 2rem;
         color: black;
         width: 87%;
@@ -319,7 +323,7 @@ table {
         margin: 3%;
     }
     h3 {
-        font-family:'Balsamiq Sans', cursive;
+        font-family:$menu-palette-font-family;
         background-image: linear-gradient(to right, #41953C, #D5F9B4);    
         background-size: 135%;
             -webkit-background-clip: text;
@@ -329,12 +333,12 @@ table {
     h4 {
         font-size: 2rem;
         font-weight: normal;
-        font-family:'Balsamiq Sans', cursive;
+        font-family:$menu-palette-font-family;
         color: black;
         margin: 2%;
     }
     table {
-        font-family:'Balsamiq Sans', cursive;
+        font-family:$menu-palette-font-family;
         font-size: 1rem;
         color: black;
         width: 87%;
@@ -364,8 +368,8 @@ table {
     p {
         font-size: 1.8rem;
         padding: 1% 5%;
-        background-color: lightseagreen;
-        color: orange;
+        background-color:$header-footer-color;
+        color: $header-footer-text-color;
         font-family: sans-serif;
         border-radius: 12px;
         margin-bottom: 10%;
@@ -441,7 +445,7 @@ footer {
 
     a {
         padding: 2% 2%;
-        color: orange;
+        color: $header-footer-text-color;
         font-family: sans-serif;
         font-size: 25px;
         text-decoration: none;
@@ -481,6 +485,8 @@ footer {
     opacity: 0.5;
     transform: scale(1.5);
 }
+
+/*responsive criteres mobiles------------------------------------------------------*/
 
 @media screen and (max-width: 600px) {
     .titre-menus{
