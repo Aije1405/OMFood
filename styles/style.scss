@@ -15,10 +15,6 @@ html {
 
 }
 
-.space{
-    height: 25%;
-}
-
 header {
     background-color: $header-footer-color;
     text-align: center;
@@ -36,6 +32,7 @@ header {
     }
 }
 
+/*Page d'accueil----------------------------*/
 
 #pagemenu1{
     display: flex;
@@ -140,9 +137,11 @@ table {
     }
 }
 
+.space{
+    height: 25%;
+}
 
-
-/*pagemenu1*/
+/*pagemenu1--------------------------------------------------------*/
 
 #note {
     background-color: #FBDFDC;
@@ -201,7 +200,7 @@ table {
     }
 }
 
-/*pagemenu2*/
+/*pagemenu2------------------------------------------*/
 
 #chic {
     background-color: #FDF5FE;
@@ -270,7 +269,7 @@ table {
 }
 
 
-/*pagemenu3*/
+/*pagemenu3----------------------------------------------*/
 
 #delice {
     background-color: #F9F9F9;
@@ -308,7 +307,7 @@ table {
     }
 }
 
-/*pagemenu4*/
+/*pagemenu4----------------------------------------*/
 
 #palette {
     background-color: #FDFFFD;
@@ -345,18 +344,12 @@ table {
     }
 }
 
-
-/*boutons---------------------------------------------------------------------------------*/
-@keyframes point {
-	0% {
-        transform: translateY(30px);
-        opacity: 100%;
-	}
-	100% {
-        transform: translateY(-30px);
-        opacity: 0%;
-	}
+/*page mentions légales-----------------------------------------------------*/
+#mentions{
+    margin: 1%;
 }
+
+/*Les boutons----------------------------------------------------------------*/
 
 #prochainement {
     text-align: center;
@@ -384,6 +377,18 @@ table {
     }
 }
 
+@keyframes point {
+	0% {
+        transform: translateY(30px);
+        opacity: 100%;
+	}
+	100% {
+        transform: translateY(-30px);
+        opacity: 0%;
+	}
+}
+
+/*Animations des catégories de menus---------------------------------------*/
 
 .underline{
     position:relative;
@@ -427,11 +432,7 @@ table {
     }
 }
   
-
-
-
-
-/*footer démarre ici---------------------------------------------------------------------*/
+/*footer et ses animations---------------------------------------------------------------------*/
 
 footer {
     width: 100%;
