@@ -4,6 +4,10 @@ $menu-note-font-family: 'Parisienne', cursive;
 $menu-chic-font-family: 'Abel', sans-serif;
 $menu-delice-font-family: 'Dancing Script', cursive;
 $menu-palette-font-family: 'Balsamiq Sans', cursive;
+$menu-note-background-color: #FBDFDC;
+$menu-chic-background-color: #FDF5FE;
+$menu-delice-background-color: #F9F9F9;
+$menu-palette-background-color: #FDFFFD;
 
 html {
     height: 100%;
@@ -39,7 +43,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #FBDFDC;
+    background-color: $menu-note-background-color;
     width: 40%;
     height: 500px;
     margin-bottom: 5%;
@@ -64,7 +68,7 @@ header {
 
 #pagemenu2{
     @extend #pagemenu1;
-    background-color: #FDF5FE;
+    background-color:$menu-chic-background-color;
 
     p{
         font-family: $menu-chic-font-family;
@@ -81,7 +85,7 @@ header {
 
 #pagemenu3{
     @extend #pagemenu1;
-    background-color: #F9F9F9;
+    background-color:$menu-delice-background-color;
 
     p{
         font-family:$menu-delice-font-family;
@@ -98,7 +102,7 @@ header {
 
 #pagemenu4{
     @extend #pagemenu1;
-    background-color: #FDFFFD;
+    background-color: $menu-palette-background-color
 
     p{
         font-family:$menu-palette-font-family;
@@ -144,7 +148,7 @@ table {
 /*pagemenu1--------------------------------------------------------*/
 
 #note {
-    background-color: #FBDFDC;
+    background-color: $menu-note-background-color;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2% 5%;
@@ -203,7 +207,7 @@ table {
 /*pagemenu2------------------------------------------*/
 
 #chic {
-    background-color: #FDF5FE;
+    background-color:$menu-chic-background-color;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2% 5%;
@@ -272,7 +276,7 @@ table {
 /*pagemenu3----------------------------------------------*/
 
 #delice {
-    background-color: #F9F9F9;
+    background-color:$menu-delice-background-color;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2% 5%;
@@ -310,7 +314,7 @@ table {
 /*pagemenu4----------------------------------------*/
 
 #palette {
-    background-color: #FDFFFD;
+    background-color:$menu-palette-background-color;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2% 5%;
