@@ -76,14 +76,16 @@ header a #titre {
 }
 
 #pagemenu4 {
-  background-color: #FDFFFD p;
-  background-color-font-family: "Balsamiq Sans", cursive;
-  background-color-font-size: 2rem;
-  background-color-background-image: linear-gradient(to right, #41953C, #D5F9B4);
-  background-color-background-size: 135%;
-  background-color--webkit-background-clip: text;
-  background-color--webkit-text-fill-color: transparent;
-  background-color-margin-bottom: 0%;
+  background-color: #FDFFFD;
+}
+#pagemenu4 p {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 2rem;
+  background-image: linear-gradient(to right, #41953C, #D5F9B4);
+  background-size: 135%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0%;
 }
 
 #index-menu {
